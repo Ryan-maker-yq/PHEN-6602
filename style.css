@@ -69,3 +69,35 @@ body{
     
   }
   
+
+   #button3 {
+    background: linear-gradient(135deg, #ff00ff, #00ff22);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    
+  }
+
+
+  #button3:hover {
+    background: linear-gradient(135deg, #48ff00, #01e8f8);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+  }
+  
+  #button3:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    
+  }
+  
